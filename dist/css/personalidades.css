@@ -1,0 +1,78 @@
+body {
+    background: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+.cta-background {
+    background-size: cover;
+    background-position: center center;
+    bottom: 0;
+    filter: blur(50px);
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.container1 {
+    align-items: center;
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+
+}
+.cta {
+    background: #333;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    border-radius: 10px;
+}
+.cta:hover img {
+    right: -10%;
+    filter: brightness(70%);
+}
+.cta:hover .text {
+    bottom: 0 !important;
+}
+.cta img {
+    bottom: 0;
+    filter: brightness(100%);
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.5s ease-in-out;
+    height: 100%;
+    width: 115%;
+}
+.cta .text {
+    bottom: -50%;
+    padding: 15px;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+.cta .text h2 {
+    color: #fff;
+    display: inline-block;
+    font-weight: 550;
+    margin-bottom: 5px;
+    position: relative;
+}
+.cta .text p {
+    margin-top: 2vh;
+    color: #fff;
+    font-weight: 300;
+}
+.equipment-4 {
+    color:  #ffc078;
+    font-family: "Open Sans", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 0;
+}

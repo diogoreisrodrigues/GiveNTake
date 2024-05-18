@@ -1,0 +1,640 @@
+
+nav.primary-navigation {
+  margin: 0 auto;
+  display: block;
+  font-size: 20px;
+}
+
+nav.primary-navigation ul li {
+  list-style: none;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-family: arvo;
+}
+
+nav.primary-navigation li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav.primary-navigation li a:hover {
+  color: #D4BE74;
+}
+
+nav.primary-navigation li:hover {
+  cursor: pointer;
+}
+
+nav.primary-navigation ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  padding-left: 0;
+  left: 0;
+  display: none;
+  background: white;
+}
+
+nav.primary-navigation ul li:hover > ul, nav.primary-navigation ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  min-width: 250px;
+  text-align: left;
+  padding-top: 20px;
+  box-shadow: 0px 3px 5px -1px #ccc;
+}
+
+nav.primary-navigation ul li ul li {
+  clear: both;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+  border-style: none;
+}
+
+nav.primary-navigation ul li ul li a:hover {
+  padding-left: 10px;
+  border-left: 2px solid #D4BE74;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D4BE74;
+  text-decoration: none;
+}
+
+ul li ul li a {
+  transition: all 0.5s ease;
+  font-size: large;
+}
+
+.PUNE {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.PUNE .overlap-wrapper {
+
+  height: 3673px;
+  overflow: hidden;
+  width: 1351px;
+}
+
+.PUNE .overlap {
+  height: 3730px;
+  left: -68px;
+  position: relative;
+  top: 2px;
+  width: 1563px;
+}
+
+.PUNE .head {
+  height: 921px;
+  left: 69px;
+  position: absolute;
+  top: 0;
+  width: 1350px;
+}
+
+.PUNE .background {
+  height: 1308px;
+  left: 0;
+  position: absolute;
+  top: 1200px;
+  width: 1920px;
+}
+
+.PUNE .overlap-group {
+  height: 1132px;
+  left: 3px;
+  position: absolute;
+  top: -2px;
+  width: 1349px;
+}
+
+.PUNE .more {
+  height: 1132px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1349px;
+}
+
+.PUNE .div {
+  height: 1132px;
+  position: relative;
+  width: 1347px;
+}
+
+.PUNE .equipment {
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 779px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 666px;
+}
+
+.PUNE .icon-navigation {
+  height: 24px !important;
+  left: 889px !important;
+  position: absolute !important;
+  top: 664px !important;
+  width: 16px !important;
+}
+
+.PUNE .image {
+  height: 1132px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1347px;
+}
+
+.PUNE .content {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 241px;
+  left: 258px;
+  overflow: hidden;
+  position: absolute;
+  top: 242px;
+  width: 827px;
+}
+
+.PUNE .group {
+  height: 25px;
+  position: relative;
+  width: 493px;
+}
+
+.PUNE .empres-rios-de {
+  color: #ffc078;
+  font-family: "Open Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 104px;
+  letter-spacing: 6px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.PUNE .rectangle {
+  background-color: #ffc078;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 72px;
+}
+
+.PUNE .uma-viagem-pela-hist {
+  color: white;
+  font-family: "Open Sans", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  height: 169px;
+  letter-spacing: 0;
+  line-height: 75px;
+  margin-right: -17px;
+  position: relative;
+  width: 844px;
+}
+
+.PUNE .text-wrapper {
+  font-weight: 700;
+}
+
+.PUNE .span {
+  font-size: 54px;
+}
+
+.PUNE .header {
+  background-color: transparent;
+  height: 25px;
+  left: 258px;
+  overflow: hidden;
+  position: absolute;
+  top: 71px;
+  width: 846px;
+}
+
+.PUNE .group-2 {
+  height: 25px;
+  left: 424px;
+  position: absolute;
+  top: -2px;
+  width: 419px;
+}
+
+.PUNE .blog {
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 340px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.PUNE .about-us {
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 196px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 98px;
+}
+
+.PUNE .equipment-2 {
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+.PUNE .logo {
+  height: 32px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 217px;
+}
+
+.PUNE .more-2 {
+  height: 55px;
+  left: 560px;
+  position: relative;
+  top: 566px;
+
+  display: flex;
+}
+
+.PUNE .equipment-3 {
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 2px;
+  width: 190px;
+}
+
+.PUNE .icon-navigation-arrow-downward-24px-4 {
+  height: 51px !important;
+  left: 203px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 24px !important;
+}
+
+.rectangle-2 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 34.09%);
+  height: 100%;
+  position: absolute;
+  top: 685px;
+  width: 100%;
+}
+
+.PUNE .content-2 {
+  height: 2853px;
+  left: 0;
+  position: absolute;
+  top: 877px;
+  width: 1563px;
+}
+
+.PUNE .content-3 {
+  height: 721px;
+  left: 38px;
+  position: absolute;
+  top: 0;
+  width: 1487px;
+}
+
+.PUNE .img {
+  height: 537px;
+  left: 194px;
+  object-fit: cover;
+  position: absolute;
+  top: 92px;
+  width: 438px;
+}
+
+.PUNE .content-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  height: 546px;
+  left: 702px;
+  position: absolute;
+  top: 84px;
+  width: 635px;
+}
+
+.PUNE .tagline {
+  height: 25px;
+  position: relative;
+  width: 468px;
+}
+
+.PUNE .text-wrapper-2 {
+  color: #ffc078 ;
+  font-family: "Open Sans", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 96px;
+  letter-spacing: 6px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.PUNE .line {
+  background-color: #ffc078;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 72px;
+}
+
+.PUNE .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 555px;
+}
+
+.PUNE .nascido-em-campo {
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: relative;
+  width: 632px;
+}
+
+.PUNE .more-3 {
+  height: 25px;
+  position: relative;
+  width: 129px;
+  display: flex;
+}
+
+.PUNE .equipment-4 {
+  color:  #ffc078;
+  font-family: "Open Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 0;
+}
+
+.PUNE .icon-navigation-arrow-downward-24px-3 {
+  height: 16px !important;
+  left: 103px !important;
+  position: absolute !important;
+  top: 3px !important;
+  width: 24px !important;
+}
+
+.PUNE .overlap-group-wrapper {
+  height: 594px;
+  left: 51px;
+  position: absolute;
+  top: 1024px;
+  width: 1461px;
+}
+
+.PUNE .content-wrapper {
+  background-image: url(https://c.animaapp.com/7KXLSqgH/img/image-2.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 745px;
+  left: 166px;
+  position: relative;
+  top: -150px;
+  width: 1135px;
+}
+
+.PUNE .content-5 {
+  height: 405px;
+  overflow: hidden;
+  position: relative;
+  top: 318px;
+}
+
+.PUNE .overlap-2 {
+  height: 183px;
+  left: 115px;
+  position: absolute;
+  top: 227px;
+  width: 934px;
+}
+
+.PUNE .more-4 {
+  height: 25px;
+  left: 403px;
+  display: flex;
+  top: 158px;
+  width: 129px;
+  position: relative;
+}
+
+.PUNE .francisco-pinto {
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 934px;
+}
+
+.PUNE .overlap-group-2 {
+  height: 103px;
+  left: 161px;
+  position: absolute;
+  top: 117px;
+  width: 841px;
+}
+
+.PUNE .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica;
+  font-size: 58px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  width: 841px;
+}
+
+.PUNE .tagline-2 {
+  height: 25px;
+  left: 72px;
+  position: absolute;
+  top: 0;
+  width: 665px;
+}
+
+.PUNE .fundador-do-jornal {
+  color: #ffc078;
+  font-family: "Open Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  left: 101px;
+  letter-spacing: 6px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.PUNE .line-2 {
+  background-color: #ffc078;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 12px;
+  width: 72px;
+}
+
+.PUNE .line-3 {
+  background-color: #ffc078;
+  height: 2px;
+  left: 591px;
+  position: absolute;
+  top: 10px;
+  width: 72px;
+}
+
+.PUNE .content-6 {
+  height: 720px;
+  left: 202px;
+  position: absolute;
+  top: 1921px;
+  width: 1158px;
+}
+
+.PUNE .content-7 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  left: 4px;
+  position: absolute;
+  top: 6px;
+  width: 576px;
+}
+
+.PUNE .tagline-3 {
+  height: 25px;
+  position: relative;
+  width: 297px;
+}
+
+.PUNE .line-4 {
+  background-color: #ffc078;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 11px;
+  width: 72px;
+}
+
+.PUNE .belmiro-de-azevedo {
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: relative;
+  width: 555px;
+}
+
+.PUNE .logo-2 {
+  height: 59px;
+  left: 18px;
+  position: absolute;
+  top: 1038px;
+  width: 173px;
+}
+
+.PUNE .element {
+  height: 621px;
+  left: 646px;
+  object-fit: cover;
+  position: absolute;
+  top: -52px;
+  width: 457px;
+}
+
+.PUNE .footer {
+  background-color: transparent;
+  height: 105px;
+  left: 160px;
+  position: absolute;
+  top: 2738px;
+  width: 1177px;
+}
+
+.PUNE .footer-2 {
+  height: 128px;
+  left: 36px;
+  position: absolute;
+  top: -102px;
+  width: 1115px;
+}
