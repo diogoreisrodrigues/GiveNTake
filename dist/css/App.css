@@ -88,7 +88,7 @@ ul li ul li a {
 
 .PUNE .overlap-wrapper {
 
-  height: 3673px;
+  height: 2600px;
   overflow: hidden;
   width: 1351px;
 }
@@ -118,7 +118,7 @@ ul li ul li a {
 }
 
 .PUNE .overlap-group {
-  height: 1132px;
+  height: 2600px;
   left: 3px;
   position: absolute;
   top: -2px;
@@ -173,11 +173,10 @@ ul li ul li a {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  height: 241px;
   left: 258px;
   overflow: hidden;
   position: absolute;
-  top: 242px;
+  top: 20vh;
   width: 827px;
 }
 
@@ -188,7 +187,7 @@ ul li ul li a {
 }
 
 .PUNE .empres-rios-de {
-  color: #ffc078;
+  color: rgb(226, 97, 64);
   font-family: "Open Sans", Helvetica;
   font-size: 16px;
   font-weight: 700;
@@ -200,7 +199,7 @@ ul li ul li a {
 }
 
 .PUNE .rectangle {
-  background-color: #ffc078;
+  background-color: rgb(226, 97, 64);
   height: 2px;
   left: 0;
   position: absolute;
@@ -213,7 +212,6 @@ ul li ul li a {
   font-family: "Open Sans", Helvetica;
   font-size: 64px;
   font-weight: 400;
-  height: 169px;
   letter-spacing: 0;
   line-height: 75px;
   margin-right: -17px;
@@ -324,7 +322,7 @@ ul li ul li a {
 }
 
 .rectangle-2 {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 34.09%);
+  background: linear-gradient(180deg, rgba(49,48,43, 0) 0%, rgb(49,48,43) 34.09%);
   height: 100%;
   position: absolute;
   top: 685px;
@@ -375,7 +373,7 @@ ul li ul li a {
 }
 
 .PUNE .text-wrapper-2 {
-  color: #ffc078 ;
+  color: rgb(226, 97, 64) ;
   font-family: "Open Sans", Helvetica;
   font-size: 17px;
   font-weight: 700;
@@ -387,7 +385,7 @@ ul li ul li a {
 }
 
 .PUNE .line {
-  background-color: #ffc078;
+  background-color: rgb(226, 97, 64);
   height: 2px;
   left: 0;
   position: absolute;
@@ -425,7 +423,7 @@ ul li ul li a {
 }
 
 .PUNE .equipment-4 {
-  color:  #ffc078;
+  color:  rgb(92, 123, 185);
   font-family: "Open Sans", Helvetica;
   font-size: 18px;
   font-weight: 700;
@@ -452,7 +450,7 @@ ul li ul li a {
 }
 
 .PUNE .content-wrapper {
-  background-image: url(https://c.animaapp.com/7KXLSqgH/img/image-2.png);
+  background-image: url(../Assets/digital.jpg);
   background-position: 50% 50%;
   background-size: cover;
   height: 745px;
@@ -531,7 +529,7 @@ ul li ul li a {
 }
 
 .PUNE .fundador-do-jornal {
-  color: #ffc078;
+  color: rgb(226, 97, 64);
   font-family: "Open Sans", Helvetica;
   font-size: 18px;
   font-weight: 700;
@@ -543,7 +541,7 @@ ul li ul li a {
 }
 
 .PUNE .line-2 {
-  background-color: #ffc078;
+  background-color: rgb(226, 97, 64);
   height: 2px;
   left: 0;
   position: absolute;
@@ -552,7 +550,7 @@ ul li ul li a {
 }
 
 .PUNE .line-3 {
-  background-color: #ffc078;
+  background-color: rgb(226, 97, 64);
   height: 2px;
   left: 591px;
   position: absolute;
@@ -586,7 +584,7 @@ ul li ul li a {
 }
 
 .PUNE .line-4 {
-  background-color: #ffc078;
+  background-color: rgb(226, 97, 64);
   height: 2px;
   left: 0;
   position: absolute;
