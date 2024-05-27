@@ -22,26 +22,7 @@
 h1, h2, h3, span, p {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
-html, body {
-    width: 100%;
-    height: 100%;
-    background: #161623;
-    /*scrollbar-width: none;
-     overflow: hidden;
-     &::-webkit-scrollbar {
-         width: 0;
-    }
-    */
-}
-body {
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 2em;
-}
+
 body::-webkit-scrollbar {
     background: #020202;
     width: 10px;
@@ -54,7 +35,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 1px;
 }
 
-body .container {
+body .containerHub {
     position: relative;
     z-index: 1;
     display: flex;
@@ -65,9 +46,9 @@ body .container {
     padding: 1em;
     max-width: 75vw;
 }
-body .container .card {
+body .containerHub .card {
     position: relative;
-    width: 12vw;
+    width: 14vw;
     height: 30vh;
     margin: 1em;
     background: rgba(255, 255, 255, 0.05);
@@ -82,7 +63,7 @@ body .container .card {
     background-clip: padding-box;
     box-shadow: 0px 10px 10px rgba(46, 54, 68, 0.03);
 }
-body .container .card .content {
+body .containerHub .card .content {
     position: relative;
     display: flex;
     justify-content: center;
@@ -91,7 +72,7 @@ body .container .card .content {
     opacity: 0.5;
     transition: 0.5s;
 }
-body .container .card .content .img {
+body .containerHub .card .content .img {
     position: relative;
     width: 8vw;
     height: 16vh;
@@ -99,7 +80,7 @@ body .container .card .content .img {
     overflow: hidden;
     border: 10px solid rgba(0, 0, 0, .25);
 }
-body .container .card .content .img img {
+body .containerHub .card .content .img img {
     position: absolute;
     top: 0;
     left: 0;
@@ -107,7 +88,7 @@ body .container .card .content .img img {
     height: 100%;
     object-fit: cover;
 }
-body .container .card .content .cardContent h3 {
+body .containerHub .card .content .cardContent h3 {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -127,12 +108,12 @@ body h1 {
     margin: 20px 0 10px;
     line-height: 1.1em;
 }
-body .container .card .content .cardContent h3 span {
+body .containerHub .card .content .cardContent h3 span {
     font-size: 12px;
     font-weight: 300;
     text-transform: initial;
 }
-body .container .card .sci {
+body .containerHub .card .sci {
     position: absolute;
     bottom: 50px;
     display: flex;
@@ -140,21 +121,21 @@ body .container .card .sci {
     align-items: center;
     flex-direction: row;
 }
-body .container .card .sci li {
+body .containerHub .card .sci li {
     margin: 0 10px;
     transform: translateY(40px);
     opacity: 0;
     transition: 0.5s;
     transition-delay: calc(0.1s * var(--i));
 }
-body .container .card .sci li a {
+body .containerHub .card .sci li a {
     font-size: 24px;
 }
-body .container .card:hover .content {
+body .containerHub .card:hover .content {
     opacity: 1;
     transform: translateY(-20px);
 }
-body .container .card:hover .sci li {
+body .containerHub .card:hover .sci li {
     transform: translateY(0px);
     opacity: 1;
 }

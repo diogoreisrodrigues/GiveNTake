@@ -36,7 +36,7 @@ nav.primary-navigation ul li ul {
   padding-left: 0;
   left: 0;
   display: none;
-  background: white;
+  background: rgb(254, 248, 225);
 }
 
 nav.primary-navigation ul li:hover > ul, nav.primary-navigation ul li ul:hover {
@@ -88,7 +88,7 @@ ul li ul li a {
 
 .PUNE .overlap-wrapper {
 
-  height: 2600px;
+  height: 3500px;
   overflow: hidden;
   width: 1351px;
 }
@@ -140,7 +140,7 @@ ul li ul li a {
 }
 
 .PUNE .equipment {
-  color: #ffffff;
+  color: rgb(254, 248, 225);
   font-family: "Open Sans", Helvetica;
   font-size: 18px;
   font-weight: 600;
@@ -208,7 +208,7 @@ ul li ul li a {
 }
 
 .PUNE .uma-viagem-pela-hist {
-  color: white;
+  color: rgb(254, 248, 225);
   font-family: "Open Sans", Helvetica;
   font-size: 64px;
   font-weight: 400;
@@ -246,7 +246,7 @@ ul li ul li a {
 }
 
 .PUNE .blog {
-  color: #ffffff;
+  color: rgb(254, 248, 225);
   font-family: "Open Sans", Helvetica;
   font-size: 18px;
   font-weight: 600;
@@ -259,7 +259,7 @@ ul li ul li a {
 }
 
 .PUNE .about-us {
-  color: #ffffff;
+  color: rgb(254, 248, 225);
   font-family: "Open Sans", Helvetica;
   font-size: 18px;
   font-weight: 600;
@@ -272,7 +272,7 @@ ul li ul li a {
 }
 
 .PUNE .equipment-2 {
-  color: #ffffff;
+  color: rgb(254, 248, 225);
   font-family: "Open Sans", Helvetica;
   font-size: 18px;
   font-weight: 600;
@@ -302,7 +302,7 @@ ul li ul li a {
 }
 
 .PUNE .equipment-3 {
-  color: #ffffff;
+  color: rgb(254, 248, 225);
   font-family: "Open Sans", Helvetica;
   font-size: 32px;
   font-weight: 600;
@@ -339,7 +339,7 @@ ul li ul li a {
 
 .PUNE .content-3 {
   height: 721px;
-  left: 38px;
+  left: 10px;
   position: absolute;
   top: 0;
   width: 1487px;
@@ -394,7 +394,7 @@ ul li ul li a {
 }
 
 .PUNE .text-wrapper-3 {
-  color: #ffffff;
+  color: rgb(254, 248, 225);
   font-family: "Open Sans", Helvetica;
   font-size: 64px;
   font-weight: 700;
@@ -405,7 +405,7 @@ ul li ul li a {
 }
 
 .PUNE .nascido-em-campo {
-  color: #ffffff;
+  color: rgb(254, 248, 225);
   font-family: "Open Sans", Helvetica;
   font-size: 18px;
   font-weight: 600;
@@ -443,14 +443,14 @@ ul li ul li a {
 
 .PUNE .overlap-group-wrapper {
   height: 594px;
-  left: 51px;
+  left: 20px;
   position: absolute;
-  top: 1024px;
+  top: 1800px;
   width: 1461px;
 }
 
 .PUNE .content-wrapper {
-  background-image: url(../Assets/DigitalGame/digital.jpg);
+  background-image: url("../Assets/logo-animation.gif");
   background-position: 50% 50%;
   background-size: cover;
   height: 745px;
@@ -479,13 +479,13 @@ ul li ul li a {
   height: 25px;
   left: 403px;
   display: flex;
-  top: 158px;
+  top: 130px;
   width: 129px;
   position: relative;
 }
 
 .PUNE .francisco-pinto {
-  color: #ffffff;
+  color: rgb(254, 248, 225);
   font-family: "Open Sans", Helvetica;
   font-size: 16px;
   font-weight: 600;
@@ -507,7 +507,7 @@ ul li ul li a {
 }
 
 .PUNE .text-wrapper-4 {
-  color: #ffffff;
+  color: rgb(254, 248, 225);
   font-family: "Open Sans", Helvetica;
   font-size: 58px;
   font-weight: 700;
@@ -529,7 +529,7 @@ ul li ul li a {
 }
 
 .PUNE .fundador-do-jornal {
-  color: rgb(226, 97, 64);
+  color: rgb(92, 123, 185);
   font-family: "Open Sans", Helvetica;
   font-size: 18px;
   font-weight: 700;
@@ -541,7 +541,7 @@ ul li ul li a {
 }
 
 .PUNE .line-2 {
-  background-color: rgb(226, 97, 64);
+  background-color: rgb(92, 123, 185);
   height: 2px;
   left: 0;
   position: absolute;
@@ -550,7 +550,7 @@ ul li ul li a {
 }
 
 .PUNE .line-3 {
-  background-color: rgb(226, 97, 64);
+  background-color: rgb(92, 123, 185);
   height: 2px;
   left: 591px;
   position: absolute;
@@ -562,7 +562,7 @@ ul li ul li a {
   height: 720px;
   left: 202px;
   position: absolute;
-  top: 1921px;
+  top: 850px;
   width: 1158px;
 }
 
@@ -580,7 +580,7 @@ ul li ul li a {
 .PUNE .tagline-3 {
   height: 25px;
   position: relative;
-  width: 297px;
+  width: 450px;
 }
 
 .PUNE .line-4 {
@@ -593,7 +593,7 @@ ul li ul li a {
 }
 
 .PUNE .belmiro-de-azevedo {
-  color: #ffffff;
+  color: rgb(254, 248, 225);
   font-family: "Open Sans", Helvetica;
   font-size: 18px;
   font-weight: 400;

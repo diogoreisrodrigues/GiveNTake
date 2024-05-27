@@ -1,5 +1,5 @@
 body {
-  background-color: #000;
+  background-color: rgb(49,48,43);
 
   overflow-x: hidden;
 }
@@ -54,7 +54,7 @@ img {
 }
 
 .ag-timeline-block {
-  padding: 20vh 0;
+  padding: 10vh 0;
 }
 .ag-timeline_title-box {
   padding: 0 0 30px;
@@ -75,7 +75,7 @@ img {
   -webkit-background-clip: text;
   background-clip: text;
   text-fill-color: transparent;
-  color: #999999;
+  color: rgb(92, 123, 185);
 
   font-size: 80px;
 }
@@ -118,7 +118,7 @@ img {
 .ag-timeline_line-progress {
   width: 100%;
   height: 20%;
-  background-color: #999999;
+  background-color: rgb(92, 123, 185);
 }
 
 .ag-timeline-card_box {
@@ -138,8 +138,8 @@ img {
   height: 50px;
   line-height: 50px;
   width: 50px;
-  border: 3px solid #999999;
-  background-color: #999999;
+  border: 3px solid rgb(92, 123, 185);
+  background-color: rgb(92, 123, 185);
 
   text-align: center;
   font-family: 'ESL Legend', sans-serif;
@@ -163,7 +163,7 @@ img {
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: #999999;
+  color: rgb(92, 123, 185);
 }
 .ag-timeline-card_item {
   display: inline-block;
@@ -253,7 +253,7 @@ img {
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: #999999;
+  color: rgb(92, 123, 185);
 }
 .ag-timeline-card_desc {
   line-height: 1.45;
